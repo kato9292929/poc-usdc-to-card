@@ -1,0 +1,84 @@
+{
+  "run": "2026-11-09T12-28-29-540Z-5-with_failures",
+  "experiment": 5,
+  "case": "with_failures",
+  "idMode": "A",
+  "psp": "payjp",
+  "commit": "4d2796c3970c2b2cabd3697101407fd14f0c9b89",
+  "runner": {
+    "country": "US",
+    "region": "Virginia",
+    "city": "Dulles Town Center",
+    "org": "AS8075 Microsoft Corporation"
+  },
+  "startedAt": "2026-11-09T12:28:41.331Z",
+  "finishedAt": "2026-11-09T12:28:50.642Z",
+  "params": {
+    "hold": 300,
+    "unit": 2,
+    "calls": 160,
+    "injectedFailures": [
+      7,
+      23,
+      39,
+      55,
+      71,
+      87,
+      103,
+      119,
+      135,
+      151
+    ],
+    "asset": "JPY"
+  },
+  "summary": {
+    "status200": 150,
+    "status502": 10,
+    "otherStatus": [],
+    "newHoldsDuringRun": 1,
+    "autoRehold": [],
+    "msPerCall": {
+      "n": 150,
+      "min": 20,
+      "median": 28,
+      "p90": 43,
+      "max": 2283
+    },
+    "msTotal": 7028,
+    "perHold": [
+      {
+        "paymentId": "pay_a717aea6601d88d9ff31195f09239c14",
+        "chargeId": "ch_0309babab71b1a4bb11b9cb0e8fb4",
+        "authorized": 300,
+        "ledgerUsed": 300,
+        "ledgerCalls": 150,
+        "calls200": 150,
+        "msFirstToLast": 4745,
+        "finalize": "capture"
+      }
+    ],
+    "pspCalls": {
+      "token": 1,
+      "authorize": 1,
+      "capture": 1,
+      "list": 1
+    }
+  },
+  "reconciliation": {
+    "ledgerTotal": 300,
+    "status200TimesUnit": 300,
+    "pspCapturedAmount": 300,
+    "pspCharges": {
+      "authorized": 1,
+      "captured": 1,
+      "voided": 0,
+      "open": 0,
+      "capturedAmount": 300
+    },
+    "ledgerEquals200": true,
+    "ledgerEqualsCaptured": true,
+    "chargeIds": [
+      "ch_0309babab71b1a4bb11b9cb0e8fb4"
+    ]
+  }
+}

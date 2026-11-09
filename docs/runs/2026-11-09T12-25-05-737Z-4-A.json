@@ -1,0 +1,487 @@
+{
+  "run": "2026-11-09T12-25-05-737Z-4-A",
+  "experiment": 4,
+  "idMode": "A",
+  "idTransport": "payload.paymentId",
+  "psp": "payjp",
+  "commit": "4d2796c3970c2b2cabd3697101407fd14f0c9b89",
+  "runner": {
+    "country": "US",
+    "region": "Virginia",
+    "city": "Dulles Town Center",
+    "org": "AS8075 Microsoft Corporation"
+  },
+  "startedAt": "2026-11-09T12:25:05.737Z",
+  "finishedAt": "2026-11-09T12:26:47.571Z",
+  "price": {
+    "amount": 50,
+    "asset": "JPY"
+  },
+  "calls": [
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_289165066dcb4f115ab5be98072b973c",
+      "ms402toFinal": 4433,
+      "msTotal": 4461,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_41310cb06a395ab205fd432227bafc3e",
+      "ms402toFinal": 3136,
+      "msTotal": 3138,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_1090dfe935b3437640ba4c9791a00ffa",
+      "ms402toFinal": 3459,
+      "msTotal": 3461,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_7103c30c0458d416c2f323a0e9d207fb",
+      "ms402toFinal": 2816,
+      "msTotal": 2817,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_456ce8ab0cf6f9aab85d3dcbf9d2c250",
+      "ms402toFinal": 3400,
+      "msTotal": 3401,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_36bb464369c61ef7c4c9e6edfe0f4013",
+      "ms402toFinal": 3521,
+      "msTotal": 3523,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_d90e5c8d0e03d454cba21d0dd778ece8",
+      "ms402toFinal": 3332,
+      "msTotal": 3334,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_cb15ac2c883df8bc1aafa333e728bafd",
+      "ms402toFinal": 3470,
+      "msTotal": 3472,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_615b83613448c5a8409610d1c3c75f74",
+      "ms402toFinal": 3461,
+      "msTotal": 3462,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_b8557d03605e32251ab24c2523bb1218",
+      "ms402toFinal": 3397,
+      "msTotal": 3398,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_c7cac4cac6b68e1dd31a4cbb9df20fda",
+      "ms402toFinal": 3513,
+      "msTotal": 3514,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_a973f3313d91c956285234cd53449644",
+      "ms402toFinal": 3391,
+      "msTotal": 3392,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_e3c72d18173528808ec56a3788d705fa",
+      "ms402toFinal": 3375,
+      "msTotal": 3376,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_1d389d1c561c4a966435a83cb5bdaba1",
+      "ms402toFinal": 3719,
+      "msTotal": 3720,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_fa5d29e5745988c679a329dfeb03aa0a",
+      "ms402toFinal": 3432,
+      "msTotal": 3433,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_2d47cd80905b13965b1449a0729cee35",
+      "ms402toFinal": 3460,
+      "msTotal": 3461,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_14d407be1c037e9755643ff51f6b93c2",
+      "ms402toFinal": 3673,
+      "msTotal": 3674,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_12a5cf1a2200676d8723e919296dee0d",
+      "ms402toFinal": 3374,
+      "msTotal": 3376,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_e291ad0c8edfd8f0cc4fd3d8e262503a",
+      "ms402toFinal": 3376,
+      "msTotal": 3377,
+      "newPayments": 1
+    },
+    {
+      "case": "normal",
+      "step": "call",
+      "status": 200,
+      "paymentId": "pay_785c837952efded14d1f6ec553fe2829",
+      "ms402toFinal": 3490,
+      "msTotal": 3491,
+      "newPayments": 1
+    },
+    {
+      "case": "handler_fail",
+      "step": "call",
+      "status": 502,
+      "paymentId": "pay_7fb61c1631e61815d7109989e2ed56b5",
+      "ms402toFinal": 3428,
+      "msTotal": 3429,
+      "newPayments": 1
+    },
+    {
+      "case": "handler_fail",
+      "step": "call",
+      "status": 502,
+      "paymentId": "pay_91c09f31121e75c1e25b580245b52c99",
+      "ms402toFinal": 3338,
+      "msTotal": 3339,
+      "newPayments": 1
+    },
+    {
+      "case": "handler_fail",
+      "step": "call",
+      "status": 502,
+      "paymentId": "pay_90ede2840d28b3839c662c699a93125d",
+      "ms402toFinal": 3238,
+      "msTotal": 3240,
+      "newPayments": 1
+    },
+    {
+      "case": "resend",
+      "step": "first",
+      "status": 200,
+      "paymentId": "pay_06ca6d7bb8bce504a5cab72993e83aa6",
+      "ms402toFinal": 3436,
+      "msTotal": 3438,
+      "newPayments": 1
+    },
+    {
+      "case": "resend",
+      "step": "same_signature",
+      "status": 200,
+      "paymentId": "pay_06ca6d7bb8bce504a5cab72993e83aa6",
+      "msTotal": 45,
+      "newPayments": 0
+    },
+    {
+      "case": "resend",
+      "step": "first",
+      "status": 200,
+      "paymentId": "pay_d01e8c40beec630281851ea5c99d3589",
+      "ms402toFinal": 3294,
+      "msTotal": 3295,
+      "newPayments": 1
+    },
+    {
+      "case": "resend",
+      "step": "same_signature",
+      "status": 200,
+      "paymentId": "pay_d01e8c40beec630281851ea5c99d3589",
+      "msTotal": 32,
+      "newPayments": 0
+    },
+    {
+      "case": "resend",
+      "step": "first",
+      "status": 200,
+      "paymentId": "pay_5296fc1e0f26c358d6cb0253fe7fe7bd",
+      "ms402toFinal": 3385,
+      "msTotal": 3385,
+      "newPayments": 1
+    },
+    {
+      "case": "resend",
+      "step": "same_signature",
+      "status": 200,
+      "paymentId": "pay_5296fc1e0f26c358d6cb0253fe7fe7bd",
+      "msTotal": 30,
+      "newPayments": 0
+    },
+    {
+      "case": "drop_after_capture",
+      "step": "dropped",
+      "status": 0,
+      "paymentId": "pay_a1a6fa9ff8c81b2a12c60f16ac32f2f6",
+      "ms402toFinal": 3467,
+      "msTotal": 3468,
+      "newPayments": 1,
+      "error": "fetch failed"
+    },
+    {
+      "case": "drop_after_capture",
+      "step": "retry_same",
+      "status": 200,
+      "paymentId": "pay_a1a6fa9ff8c81b2a12c60f16ac32f2f6",
+      "msTotal": 73,
+      "newPayments": 0
+    },
+    {
+      "case": "drop_after_capture",
+      "step": "dropped",
+      "status": 0,
+      "paymentId": "pay_661c998b2cfe795a81ccd4596bc9a93e",
+      "ms402toFinal": 3399,
+      "msTotal": 3400,
+      "newPayments": 1,
+      "error": "fetch failed"
+    },
+    {
+      "case": "drop_after_capture",
+      "step": "retry_same",
+      "status": 200,
+      "paymentId": "pay_661c998b2cfe795a81ccd4596bc9a93e",
+      "msTotal": 33,
+      "newPayments": 0
+    },
+    {
+      "case": "drop_after_capture",
+      "step": "dropped",
+      "status": 0,
+      "paymentId": "pay_8fca31739186807efbe9bda04ab13977",
+      "ms402toFinal": 3514,
+      "msTotal": 3516,
+      "newPayments": 1,
+      "error": "fetch failed"
+    },
+    {
+      "case": "drop_after_capture",
+      "step": "retry_same",
+      "status": 200,
+      "paymentId": "pay_8fca31739186807efbe9bda04ab13977",
+      "msTotal": 40,
+      "newPayments": 0
+    }
+  ],
+  "summary": {
+    "normal": {
+      "status200": 20,
+      "ms402to200": {
+        "n": 20,
+        "min": 2816,
+        "median": 3432,
+        "p90": 3673,
+        "max": 4433
+      },
+      "msAuthorizeAtPsp": {
+        "n": 20,
+        "min": 873,
+        "median": 1191,
+        "p90": 1264,
+        "max": 1365
+      },
+      "msAuthorizeToCapture": {
+        "n": 20,
+        "min": 838,
+        "median": 1191,
+        "p90": 1238,
+        "max": 1954
+      }
+    },
+    "statusByCase": {
+      "normal": [
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200",
+        "call:200"
+      ],
+      "handler_fail": [
+        "call:502",
+        "call:502",
+        "call:502"
+      ],
+      "resend": [
+        "first:200",
+        "same_signature:200",
+        "first:200",
+        "same_signature:200",
+        "first:200",
+        "same_signature:200"
+      ],
+      "drop_after_capture": [
+        "dropped:0",
+        "retry_same:200",
+        "dropped:0",
+        "retry_same:200",
+        "dropped:0",
+        "retry_same:200"
+      ]
+    },
+    "facilitator": {
+      "authorizeCalls": 35,
+      "authorizeDeduped": 6,
+      "lifecycleCalls": 35,
+      "lifecycleDeduped": 6,
+      "rejected": {}
+    },
+    "literalPaymentIdentifierConflicts": 0,
+    "pspCalls": {
+      "token": 29,
+      "authorize": 29,
+      "capture": 26,
+      "refund": 3,
+      "list": 1
+    }
+  },
+  "psp_reconciliation": {
+    "normal": {
+      "authorized": 20,
+      "captured": 20,
+      "voided": 0,
+      "open": 0,
+      "capturedAmount": 1000,
+      "chargeIds": [
+        "ch_e17a4e5e4073e0ac1fd95e4a68e0c",
+        "ch_a1137e33593ac091ce38f478df6de",
+        "ch_33b41d0dd45c93d5a624e2e88a857",
+        "ch_1f71f61c599781b2f0f66a3a5ab06",
+        "ch_052b27a7ee95375ab368aee3dd7c8",
+        "ch_9527e4ebd5dd53dbb6ef2e206a962",
+        "ch_26fe5fc2f2f98b45553eb6c001848",
+        "ch_df7371919ee0e6c3327620ec5a4e9",
+        "ch_30dce1448b20e90d3680096c1e4bd",
+        "ch_f91ab53c533232c9903412826f382",
+        "ch_adb79e8ff74e5b0afa906c4dfceb5",
+        "ch_0cefb78917fddc5df40bd24748a7d",
+        "ch_1c0bb0216c2e9927425c7a649f157",
+        "ch_71359dc38e2e908707480713e12d4",
+        "ch_21959efb69e4cc45045c89e1084d2",
+        "ch_7327d786d5950bb48333c82c1a0d2",
+        "ch_46d3602bee225b162ed3b6d2e477e",
+        "ch_09d6769e8ded3982eaedf8b74bf33",
+        "ch_cb8597fb8f99fe0a7064fe9f89766",
+        "ch_4001b000bd0875824137e322168cc"
+      ]
+    },
+    "handler_fail": {
+      "authorized": 3,
+      "captured": 0,
+      "voided": 3,
+      "open": 0,
+      "capturedAmount": 0,
+      "chargeIds": [
+        "ch_a057645d194c9fc3002ba83eb6480",
+        "ch_07b0c88ef3e8ca1d8473d8f685391",
+        "ch_1d03f7b31b3d6fc7f205063bee39a"
+      ]
+    },
+    "resend": {
+      "authorized": 3,
+      "captured": 3,
+      "voided": 0,
+      "open": 0,
+      "capturedAmount": 150,
+      "chargeIds": [
+        "ch_6b90a0a374351963f0fe12032a92b",
+        "ch_deae4293b96664a7f8d3cce9ce107",
+        "ch_654033e72077cfb8661e11f6e1df7"
+      ]
+    },
+    "drop_after_capture": {
+      "authorized": 3,
+      "captured": 3,
+      "voided": 0,
+      "open": 0,
+      "capturedAmount": 150,
+      "chargeIds": [
+        "ch_3ef34ba076efca967822028cb0aec",
+        "ch_17d95d4de0d076b8909395844abae",
+        "ch_ef9cd7c63f44d99e1067b3943c73e"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "x402Version": 2,
+  "payload": {
+    "token": "<redacted>"
+  },
+  "extensions": {
+    "payment-identifier": {
+      "info": {
+        "required": true,
+        "id": "pay_dc60be7abfb3aa28d6ed79fef307cabc"
+      }
+    }
+  },
+  "resource": {
+    "url": "/jin/latest",
+    "description": "Japan Inflation Nowcast latest (proxied from jin.x402jp.com)",
+    "mimeType": "application/json"
+  },
+  "accepted": {
+    "scheme": "auth-capture",
+    "network": "card:visa",
+    "amount": "50",
+    "asset": "JPY",
+    "payTo": "acct_payjp_test",
+    "maxTimeoutSeconds": 900,
+    "extra": {
+      "psp": "payjp",
+      "paymentFlow": "escrow"
+    }
+  }
+}

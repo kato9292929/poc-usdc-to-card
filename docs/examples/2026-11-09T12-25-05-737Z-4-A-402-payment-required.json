@@ -1,0 +1,23 @@
+{
+  "x402Version": 2,
+  "error": "payment required",
+  "resource": {
+    "url": "/jin/latest",
+    "description": "Japan Inflation Nowcast latest (proxied from jin.x402jp.com)",
+    "mimeType": "application/json"
+  },
+  "accepts": [
+    {
+      "scheme": "auth-capture",
+      "network": "card:visa",
+      "amount": "50",
+      "asset": "JPY",
+      "payTo": "acct_payjp_test",
+      "maxTimeoutSeconds": 900,
+      "extra": {
+        "psp": "payjp",
+        "paymentFlow": "escrow"
+      }
+    }
+  ]
+}

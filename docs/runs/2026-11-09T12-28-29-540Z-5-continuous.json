@@ -1,0 +1,90 @@
+{
+  "run": "2026-11-09T12-28-29-540Z-5-continuous",
+  "experiment": 5,
+  "case": "continuous",
+  "idMode": "A",
+  "psp": "payjp",
+  "commit": "4d2796c3970c2b2cabd3697101407fd14f0c9b89",
+  "runner": {
+    "country": "US",
+    "region": "Virginia",
+    "city": "Dulles Town Center",
+    "org": "AS8075 Microsoft Corporation"
+  },
+  "startedAt": "2026-11-09T12:28:29.540Z",
+  "finishedAt": "2026-11-09T12:28:41.330Z",
+  "params": {
+    "hold": 300,
+    "unit": 2,
+    "calls": 160,
+    "injectedFailures": [],
+    "asset": "JPY"
+  },
+  "summary": {
+    "status200": 160,
+    "status502": 0,
+    "otherStatus": [],
+    "newHoldsDuringRun": 2,
+    "autoRehold": [
+      {
+        "i": 150,
+        "status": 200
+      }
+    ],
+    "msPerCall": {
+      "n": 160,
+      "min": 20,
+      "median": 28,
+      "p90": 42,
+      "max": 2164
+    },
+    "msTotal": 9125,
+    "perHold": [
+      {
+        "paymentId": "pay_8b87b478d5af87d68e3eb8e1447e84c9",
+        "chargeId": "ch_ffcb4f1d823fa8a7b2704f4d4eb47",
+        "authorized": 300,
+        "ledgerUsed": 300,
+        "ledgerCalls": 150,
+        "calls200": 150,
+        "msFirstToLast": 4645,
+        "finalize": "capture"
+      },
+      {
+        "paymentId": "pay_e21304777425bbf04943deb8ef1eba85",
+        "chargeId": "ch_2144637c9cfe223bed22f46b15d9c",
+        "authorized": 300,
+        "ledgerUsed": 20,
+        "ledgerCalls": 10,
+        "calls200": 10,
+        "msFirstToLast": 254,
+        "finalize": "void"
+      }
+    ],
+    "pspCalls": {
+      "token": 2,
+      "authorize": 2,
+      "capture": 1,
+      "refund": 1,
+      "list": 1
+    }
+  },
+  "reconciliation": {
+    "ledgerTotal": 320,
+    "status200TimesUnit": 320,
+    "pspCapturedAmount": 300,
+    "pspCharges": {
+      "authorized": 2,
+      "captured": 1,
+      "voided": 1,
+      "open": 0,
+      "capturedAmount": 300
+    },
+    "ledgerEquals200": true,
+    "ledgerEqualsCaptured": false,
+    "chargeIds": [
+      "ch_2144637c9cfe223bed22f46b15d9c",
+      "ch_ffcb4f1d823fa8a7b2704f4d4eb47"
+    ]
+  }
+}
