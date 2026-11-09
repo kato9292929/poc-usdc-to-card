@@ -1,0 +1,14 @@
+{
+  "name": "poc-usdc-to-card",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test test/*.test.ts",
+    "run-4": "node --experimental-strip-types --no-warnings scripts/run-4.ts",
+    "run-5": "node --experimental-strip-types --no-warnings scripts/run-5.ts"
+  },
+  "dependencies": {
+    "@x402/core": "2.28.0"
+  }
+}
