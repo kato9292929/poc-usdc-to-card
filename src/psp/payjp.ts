@@ -5,6 +5,11 @@ const BASE = 'https://api.pay.jp/v1';
 // テストモードの流量は秒間 2 リクエスト。少し余裕をみて 1 リクエストあたり 550ms 空ける
 const MIN_INTERVAL_MS = 550;
 
+/** 貼り付けで混ざりやすいもの（前後の空白・改行・ゼロ幅文字・引用符）を落とす */
+export function normalizeKey(v: string): string {
+  return v.replace(/[\u200B-\u200D\u2060\uFEFF]/g, '').trim().replace(/^["'“”‘’](.*)["'“”‘’]$/s, '$1').trim();
+}
+
 export interface PayjpOptions {
   secretKey: string;
   fetch?: typeof fetch;
@@ -21,8 +26,9 @@ export class Payjp implements Psp {
   private queue: Promise<unknown> = Promise.resolve();
 
   constructor(o: PayjpOptions) {
-    if (!/^sk_test_/.test(o.secretKey)) throw new Error('PAYJP_SECRET_KEY must be a test-mode key (sk_test_...)');
-    this.auth = 'Basic ' + Buffer.from(`${o.secretKey}:`).toString('base64');
+    const key = normalizeKey(o.secretKey);
+    if (!/^sk_test_/.test(key)) throw new Error('PAYJP_SECRET_KEY must be a test-mode key (sk_test_...)');
+    this.auth = 'Basic ' + Buffer.from(`${key}:`).toString('base64');
     this.f = o.fetch ?? fetch;
     this.sleep = o.sleep ?? ((ms) => new Promise((r) => setTimeout(r, ms)));
   }
